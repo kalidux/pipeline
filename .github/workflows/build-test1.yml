@@ -35,7 +35,7 @@ jobs:
       # Build test 1
       - name: Build test 1
         run: |
-          docker build ./test1 -t test1
+          docker build ./test1 -t kalidux/test1
       # Push 
       - name: docker push
         run: |
