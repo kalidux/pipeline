@@ -36,4 +36,8 @@ jobs:
       - name: Build test 1
         run: |
           docker build ./test1 -t test1
+      # Push 
+      - name: docker push
+        run: |
+          docker push test1
 
