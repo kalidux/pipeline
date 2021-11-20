@@ -39,5 +39,5 @@ jobs:
       # Push 
       - name: docker push
         run: |
-          docker push test1
+          docker push kalidux/test1
 
