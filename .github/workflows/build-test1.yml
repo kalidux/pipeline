@@ -31,7 +31,7 @@ jobs:
           DOCKER_USER: ${{ secrets.DOCKER_USER }}
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
         run: |
-          docker login -u $DOCKER_USER -p $DOCKER-PASSWORD
+          docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
       # Build test 1
       - name: Build test 1
         run: |
