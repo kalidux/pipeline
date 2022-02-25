@@ -41,7 +41,7 @@ jobs:
       # Build test 1
       - name: Build test 1
         run: |
-          make -j build-push-docker-image
+          make -j build-push-docker-images
       # Push 
       # - name: docker push
       #  run: |
