@@ -43,7 +43,7 @@ jobs:
         run: |
           make -j build-push-docker-image
       # Push 
-      - name: docker push
-        run: |
-          docker push kalidux/test1
+      # - name: docker push
+      #  run: |
+      #    docker push kalidux/test1
 
