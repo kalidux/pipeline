@@ -5,5 +5,5 @@ build-push-docker-images:
 	@DOCKER_BUILDKIT=1 docker buildx build \
 		--platform $i \
 		--output "type=image,push=true" \
-		-t kalidux/test:hey .
+		-t toto/test:hey .
 	done
